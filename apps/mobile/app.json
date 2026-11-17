@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "OneXDeal",
+    "slug": "onexdeal",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "onexdeal",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onexdeal.mobile"
+    },
+    "android": {
+      "package": "com.onexdeal.mobile"
+    }
+  }
+}

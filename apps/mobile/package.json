@@ -1,0 +1,34 @@
+{
+  "name": "@onexdeal/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OneXDeal React Native + Expo mobile application (Android & iOS)",
+  "main": "src/App.tsx",
+  "scripts": {
+    "dev": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "build": "tsc -p tsconfig.build.json --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vitest run",
+    "clean": "rm -rf .expo dist .turbo coverage"
+  },
+  "dependencies": {
+    "@onexdeal/types": "workspace:*",
+    "@onexdeal/ui": "workspace:*",
+    "@onexdeal/utils": "workspace:*",
+    "expo": "~52.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.3"
+  },
+  "devDependencies": {
+    "@onexdeal/config": "workspace:*",
+    "@types/react": "~18.3.12",
+    "eslint": "^9.15.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0",
+    "vitest": "^2.1.5"
+  }
+}

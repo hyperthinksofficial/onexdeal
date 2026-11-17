@@ -1,0 +1,20 @@
+{
+  "name": "@onexdeal/config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared TypeScript, ESLint and Prettier configurations for OneXDeal",
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.node.json",
+    "tsconfig.nextjs.json",
+    "tsconfig.react-native.json",
+    "eslint.base.mjs"
+  ],
+  "scripts": {
+    "build": "echo 'Config package requires no build step'",
+    "lint": "echo 'Config package linted via root'",
+    "typecheck": "echo 'Config package checked via consumers'",
+    "test": "echo 'Config package has no runtime tests'",
+    "clean": "rm -rf .turbo"
+  }
+}
